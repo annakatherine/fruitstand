@@ -6,18 +6,28 @@
   </head>
   <body>
 <h1>Welcome to the Fruit Stand</h1>
-<table>
-  <div id="">
-    
-  </div>
+<table id="fruitBuy">
+  <tr>
+    <td>Apple</td><td id='applePrice'></td><td><button type="button" id="appleBuy">buy</button></td>
+</tr>
+<tr>
+    <td>Banana</td><td id='bananaPrice'></td><td><button type="button" id="bananaBuy">buy</button></td>
+  </tr>
+  <tr>
+    <td>Grape</td><td id='grapePrice'></td><td><button type="button" id="grapeBuy">buy</button></td>
+  </tr>
+  <tr>
+    <td>Orange</td><td id='orangePrice'></td><td><button type="button" id="orangeBuy">buy</button></td>
+  </tr>
 </table>
 <div class="fruitDisplay">
 
+  <input type="text" id="fruitIn" placeholder="Add Fruit Here"></input>
+  <button type="button" id="fruitBtn" >Add Fruit</button>
 </div>
 
 <script type="text/javascript" src='vendors/jquery-2.3.3.min.js'></script>
 <script type="text/javascript" src='scripts/fruitstand.js'>
-
 </script>
 
   </body>
