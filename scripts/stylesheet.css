@@ -1,0 +1,18 @@
+
+H1{
+  text-align: left;
+  color: black;
+  margin: 20px, 20px, 20px, 20px;
+}
+.fruitDisplay{
+  text-align: left;
+  margin: 20px, 20px, 20px, 20px;
+}
+.wallet{
+  float: right;
+}
+body{
+  margin: auto;
+  background-image: url("https://images8.alphacoders.com/403/403975.jpg");
+  background-size: cover;
+}
