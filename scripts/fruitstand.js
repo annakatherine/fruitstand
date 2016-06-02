@@ -19,7 +19,10 @@ var name = $('#fruitIn').val();
    };
 
 fruit.push(newFruit);
+
+currentPrice.push(0);
 console.log(fruit);
+
 });
 
 //This generates a random number, and is called by the calcPrice below
@@ -34,5 +37,9 @@ var calcPrice = function(){
  for (var i = 0; i < currentPrice.length; i++) {
     currentPrice[i] = Number(randomNumberMaker(-0.50, 0.50));
 }
-// console.log(currentPrice);
+$('#applePrice').html(currentPrice[0]);
+$('#bananaPrice').html(currentPrice[1]);
+$('#grapePrice').html(currentPrice[2]);
+$('#orangePrice').html(currentPrice[3]);
+//console.log(currentPrice);
  };
